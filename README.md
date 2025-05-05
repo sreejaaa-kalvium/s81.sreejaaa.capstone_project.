@@ -1,5 +1,10 @@
 # **Capstone Project Overview: Inflation vs. Wages Tracker**  
+
+
+
 lnvksakvskvbkvkgv
+kuhflskdgvlsdgvlsdvbjlsdvvnfdkjvbkbv
+
 ### **🌍 Problem Statement**  
 Economic disparities arise when wage growth fails to keep pace with inflation, eroding purchasing power. This project quantifies the relationship between inflation and wage trends, empowering users to make data-driven financial decisions.  
 
