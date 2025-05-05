@@ -1,70 +1,67 @@
-# s81_Sreeja_Capstone_Inflation
-# s81_Sreeja_Capstone_Inflationn
+# **Capstone Project Overview: Inflation vs. Wages Tracker**  
 
+### **🌍 Problem Statement**  
+Economic disparities arise when wage growth fails to keep pace with inflation, eroding purchasing power. This project quantifies the relationship between inflation and wage trends, empowering users to make data-driven financial decisions.  
 
+---
 
-Week 1: Foundation & Content
-✅ Day 1-3:
+### **🎯 Objectives**  
+1. **Data Integration**  
+   - Collect historical inflation (CPI) and wage growth datasets from authoritative sources (e.g., FRED, World Bank).  
+2. **Trend Analysis**  
+   - Identify periods where wages lagged inflation (e.g., 2022’s "silent pay cut" phenomenon).  
+3. **Visualization**  
+   - Build interactive dashboards to compare trends across countries/years.  
+4. **Actionable Insights**  
+   - Recommend policy/personal finance strategies based on gaps.  
 
-Finalize core pages:
+---
 
-inflation-wages-tracker.html (Static data placeholder).
+### **🛠️ Technical Stack**  
+| **Component**       | **Tools**                          |  
+|---------------------|-----------------------------------|  
+| Data Collection     | Python (`requests`, `pandas`), APIs (FRED, OECD) |  
+| Data Cleaning      | `pandas`, `numpy` (handle missing values) |  
+| Analysis          | Statistical modeling (YoY % changes), `scipy` |  
+| Visualization     | `matplotlib`, `Plotly`, Excel (fallback) |  
+| Deployment       | GitHub (code), Streamlit/Tableau (optional dashboard) |  
 
-articles-hub.html (3 starter articles).
+---
 
-Draft 1 infographic (Inflation vs. wages).
+### **📂 Deliverables (Structured for Capstone)**  
+1. **`/data`**  
+   - Raw datasets (`inflation_raw.csv`, `wages_raw.csv`) + cleaned versions.  
+2. **`/notebooks`**  
+   - Jupyter Notebooks for EDA and statistical tests.  
+3. **`/scripts`**  
+   - Modular Python scripts (e.g., `fetch_data.py`, `analyze_trends.py`).  
+4. **`/docs`**  
+   - Project charter, methodology write-up, and user guide.  
+5. **`/output`**  
+   - Visualizations (PNG/HTML) and final report (PDF).  
 
-✅ Day 4-7:
+---
 
-Build budget tracker template (Google Sheets/Excel).
+### **⏱️ Timeline (Milestones)**  
+| **Week** | **Task**                          | **Outcome**                          |  
+|----------|-----------------------------------|--------------------------------------|  
+| 1        | Data requisition & cleaning      | Validated datasets ready for analysis |  
+| 2        | Exploratory analysis             | Key trends identified (e.g., 2022 wage gap) |  
+| 3        | Visualization & dashboard build  | Interactive charts deployed          |  
+| 4        | Documentation & testing          | Final report, code reviewed          |  
 
-Film 2 short videos (Script: "What is inflation?" + "3 budget hacks").
+---
 
-Week 2: Prototype & Feedback
-✅ Day 8-10:
+### **💡 Expected Impact**  
+- **For Policymakers**: Highlight regions/industries needing wage adjustments.  
+- **For Individuals**: Tool to benchmark salary raises against inflation.  
+- **Academic Contribution**: Reusable pipeline for macroeconomic analysis.  
 
-Create interactive calculator (Raise needed to beat inflation).
+---
 
-Add search bar to Articles Hub (Algolia or basic JS).
+### **🔗 Next Steps**  
+1. **Repo Setup**: Clone [this template](https://github.com/datascience/capstone-template) to align with capstone folder structure.  
+2. **Data Validation**: Cross-check sources for consistency (e.g., OECD vs. national data).  
+3. **Peer Review**: Share drafts with mentors for feedback.  
 
-✅ Day 11-14:
-
-Test with 5 construction workers (Friends/FB groups).
-
-Fix pain points (e.g., mobile zoom issues, jargon).
-
-Week 3: Polish & Prep
-✅ Day 15-17:
-
-Add real wage data (BLS/Census APIs or manual CSV).
-
-Design email signup form (Mailchimp embed).
-
-✅ Day 18-21:
-
-Write 5 email templates (Weekly inflation tips).
-
-Optimize for SEO (Keywords: "construction wages 2024").
-
-Week 4: Launch & Learn
-🚀 Day 22-24:
-
-Deploy to Netlify/Vercel (Free tier).
-
-Share in Reddit r/Construction, FB groups.
-
-📊 Day 25-28:
-
-Monitor traffic (Google Analytics).
-
-Collect feedback via 1-question poll ("What’s your biggest money stressor?").
-
-🔧 Day 29-30:
-
-Patch bugs (e.g., form submissions broken).
-
-Plan Phase 2 (User accounts, app version).
-
-
-
-# s81_Sreeja_Capstone_Inflation
+--- 
